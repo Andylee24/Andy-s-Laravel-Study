@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c698825-868f-4652-bfc7-2ca8d38e3c12" name="Default Changelist" comment="" />
+    <list default="true" id="4c698825-868f-4652-bfc7-2ca8d38e3c12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/andyweb/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VpsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VpsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/andyweb/vps.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/andyweb/vps.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +19,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -128,6 +138,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1eDiMdLPr4orJHLd8f9REho7G8I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -135,6 +146,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -169,7 +181,7 @@
       <workItem from="1594170880041" duration="2145000" />
       <workItem from="1594174996252" duration="635000" />
       <workItem from="1594462463517" duration="564000" />
-      <workItem from="1594480202856" duration="512000" />
+      <workItem from="1594480202856" duration="3522000" />
     </task>
     <servers />
   </component>

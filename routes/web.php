@@ -31,5 +31,7 @@ Route::get('/andy', function () {
 });
 
 Route::get('/vps', 'VpsController@index');
+Route::post('/vps','VpsController@store');
 Route::get('/vps/{id}', 'VpsController@show');
+Route::get('/add', 'VpsController@add');
 

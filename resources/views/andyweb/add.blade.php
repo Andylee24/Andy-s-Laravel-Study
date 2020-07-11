@@ -80,27 +80,35 @@
         </div>
     @endif
 
-    <div class="content">
-        <div class="title m-b-md">
-            列表
-        </div>
-        @foreach($vip as $h)
-            <div>
-            {{$h->id}}--{{$h->name}}--{{$h->type}}--{{$h->price}}--{{$h->bandwidth}}--{{$h->core}}
 
-            </div>
+    <div>
+        <h1>添加add</h1>
+        <form action="/vps" method="post">
+            @csrf
+            <label for="name">服务器编号</label>
+            <input type="text" id="id" name="id">
+            <label for="name">服务器名称</label>
+            <input type="text" id="name" name="name">
+            <label for="type">服务器类型</label>
+            <select name="type">
+                <option value="NTT">NTT</option>
+                <option value="CN2-Gia">CN2-Gia</option>
+                <option value="PCCW">PCCW</option>
+            </select>
+            <label for="type">服务器价格</label>
+            <input type="text" id="price" name="price">
+            <label for="type">服务器带宽</label>
+            <input type="text" id="bandwidth" name="bandwidth">
+            <label for="type">服务器配置</label>
+            <input type="text" id="core" name="core">
 
-        @endforeach
-        <div>
-            <p>
-                {{session('mess')}}
-            </p>
-        </div>
-
-
-
-
+            <input type="submit" value="提交">
+        </form>
     </div>
+
+
+
+
 </div>
 <div>
 
