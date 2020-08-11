@@ -101,6 +101,15 @@
             <input type="text" id="bandwidth" name="bandwidth">
             <label for="type">服务器配置</label>
             <input type="text" id="core" name="core">
+            <fieldset>
+                <label for="type">user</label>
+                <input type="checkbox" name="user[]" value="lmy1">lmy1<br>
+                <input type="checkbox" name="user[]" value="lmy2">lmy2<br>
+                <input type="checkbox" name="user[]" value="lmy3">lmy3<br>
+                <input type="checkbox" name="user[]" value="lmy4">lmy4<br>
+
+            </fieldset>
+
 
             <input type="submit" value="提交">
         </form>

@@ -34,4 +34,5 @@ Route::get('/vps', 'VpsController@index');
 Route::post('/vps','VpsController@store');
 Route::get('/vps/{id}', 'VpsController@show');
 Route::get('/add', 'VpsController@add');
+Route::delete('/vps/{id}','VpsController@destroy');
 

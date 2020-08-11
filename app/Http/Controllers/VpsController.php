@@ -38,8 +38,16 @@ class VpsController extends Controller
         $sub->bandwidth=request('bandwidth');
         $sub->core=request('core');
         error_log($sub);
+        $sub->user=request('user');
         $sub->save();
         return redirect('/vps')->with('mess','谢谢你的订购');
+
+    }
+    public function destroy($id)
+    {
+        $subs=Vps::findOrFail($id);
+        $subs->delete();
+        return redirect('/vps');
 
     }
 }

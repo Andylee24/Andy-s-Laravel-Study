@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c698825-868f-4652-bfc7-2ca8d38e3c12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/andyweb/add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VpsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VpsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/andyweb/vps.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/andyweb/vps.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Vps.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Vps.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_07_030803_creat_vps_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_07_030803_creat_vps_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/andyweb/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/andyweb/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/andyweb/number.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/andyweb/number.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,6 +183,9 @@
       <workItem from="1594174996252" duration="635000" />
       <workItem from="1594462463517" duration="564000" />
       <workItem from="1594480202856" duration="3522000" />
+      <workItem from="1594487178438" duration="233000" />
+      <workItem from="1594557737690" duration="3407000" />
+      <workItem from="1596331281879" duration="620000" />
     </task>
     <servers />
   </component>
@@ -201,6 +205,10 @@
       <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state x="618" y="186" key="#phpunit.xml/0.23.1920.1003@0.23.1920.1003" timestamp="1593863244433" />
+    <state x="1025" y="310" key="EditFileWatcherDialog" timestamp="1594560716050">
+      <screen x="0" y="23" width="1920" height="1003" />
+    </state>
+    <state x="1025" y="310" key="EditFileWatcherDialog/0.23.1920.1003@0.23.1920.1003" timestamp="1594560716050" />
     <state width="1878" height="271" key="GridCell.Tab.0.bottom" timestamp="1593884397247">
       <screen x="0" y="23" width="1920" height="1008" />
     </state>

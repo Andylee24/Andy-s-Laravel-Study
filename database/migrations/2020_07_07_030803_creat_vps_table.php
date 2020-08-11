@@ -21,6 +21,7 @@ class CreatVpsTable extends Migration
         $table->string('price');
         $table->string('bandwidth');
         $table->string('core');
+        $table->json('user');
 
 
     });

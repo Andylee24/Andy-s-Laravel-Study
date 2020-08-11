@@ -99,6 +99,14 @@
     </div>
 
     </div>
+    <div>
+        <form action="/vps/{{$id->id}}" method="post">
+            @csrf
+            @method('DELETE');
+            <button> 完成！</button>
+
+        </form>
+    </div>
 </div>
 </body>
 </html>
