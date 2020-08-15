@@ -36,3 +36,11 @@ Route::get('/vps/{id}', 'VpsController@show');
 Route::get('/add', 'VpsController@add');
 Route::delete('/vps/{id}','VpsController@destroy');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

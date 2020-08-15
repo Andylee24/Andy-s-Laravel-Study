@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c698825-868f-4652-bfc7-2ca8d38e3c12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VpsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VpsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Vps.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Vps.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_07_030803_creat_vps_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_07_030803_creat_vps_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/andyweb/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/andyweb/add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/andyweb/number.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/andyweb/number.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -136,6 +139,7 @@
       <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
       <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
       <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1eDiMdLPr4orJHLd8f9REho7G8I" />
@@ -186,6 +190,8 @@
       <workItem from="1594487178438" duration="233000" />
       <workItem from="1594557737690" duration="3407000" />
       <workItem from="1596331281879" duration="620000" />
+      <workItem from="1597125274105" duration="1813000" />
+      <workItem from="1597453733221" duration="1433000" />
     </task>
     <servers />
   </component>
@@ -243,5 +249,9 @@
     </state>
     <state x="1182" y="377" key="SymfonyComponentCompositeDataDialog/0.23.1920.1002@0.23.1920.1002" timestamp="1594099415315" />
     <state x="1182" y="377" key="SymfonyComponentCompositeDataDialog/0.23.1920.1003@0.23.1920.1003" timestamp="1593876963514" />
+    <state x="1229" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597456405052">
+      <screen x="0" y="23" width="1920" height="1005" />
+    </state>
+    <state x="1229" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1005@0.23.1920.1005" timestamp="1597456405052" />
   </component>
 </project>
