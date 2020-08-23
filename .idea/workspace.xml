@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c698825-868f-4652-bfc7-2ca8d38e3c12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,12 +183,24 @@
       <workItem from="1594557737690" duration="3407000" />
       <workItem from="1596331281879" duration="620000" />
       <workItem from="1597125274105" duration="1813000" />
-      <workItem from="1597453733221" duration="1433000" />
+      <workItem from="1597453733221" duration="2408000" />
     </task>
+    <task id="LOCAL-00001" summary="auth">
+      <created>1597456435565</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597456435565</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="auth" />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593862614612">
@@ -211,6 +215,10 @@
       <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state x="618" y="186" key="#phpunit.xml/0.23.1920.1003@0.23.1920.1003" timestamp="1593863244433" />
+    <state x="1034" y="123" key="CommitChangelistDialog2" timestamp="1597456435206">
+      <screen x="0" y="23" width="1920" height="1005" />
+    </state>
+    <state x="1034" y="123" key="CommitChangelistDialog2/0.23.1920.1005@0.23.1920.1005" timestamp="1597456435206" />
     <state x="1025" y="310" key="EditFileWatcherDialog" timestamp="1594560716050">
       <screen x="0" y="23" width="1920" height="1003" />
     </state>
