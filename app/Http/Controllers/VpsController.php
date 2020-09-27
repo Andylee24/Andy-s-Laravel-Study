@@ -40,7 +40,7 @@ class VpsController extends Controller
         error_log($sub);
         $sub->user=request('user');
         $sub->save();
-        return redirect('/vps')->with('mess','谢谢你的订购');
+        return redirect('/vps')->with('mess','感谢您的订购');
 
     }
     public function destroy($id)

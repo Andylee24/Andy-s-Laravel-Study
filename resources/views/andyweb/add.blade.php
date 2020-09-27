@@ -12,7 +12,8 @@
     <!-- Styles -->
     <style>
         html, body {
-            background-color: #fff;
+            background-image: url("https://kuguacloud.oss-cn-qingdao.aliyuncs.com/img/壁纸48.jpg");
+            background-size: 1920px 1080px;
             color: #636b6f;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
@@ -23,7 +24,10 @@
         .full-height {
             height: 100vh;
         }
+        h1{
 
+            color: aquamarine;
+        }
         .flex-center {
             align-items: center;
             display: flex;
@@ -57,7 +61,11 @@
             text-decoration: none;
             text-transform: uppercase;
         }
+        label,name{
 
+            color: lawngreen;
+
+        }
         .m-b-md {
             margin-bottom: 30px;
         }
@@ -91,9 +99,11 @@
             <input type="text" id="name" name="name">
             <label for="type">服务器类型</label>
             <select name="type">
+                <option value="BGP">BGP</option>
                 <option value="NTT">NTT</option>
                 <option value="CN2-Gia">CN2-Gia</option>
                 <option value="PCCW">PCCW</option>
+                <option value="IPLC">IPLC</option>
             </select>
             <label for="type">服务器价格</label>
             <input type="text" id="price" name="price">

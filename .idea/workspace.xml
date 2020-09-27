@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4c698825-868f-4652-bfc7-2ca8d38e3c12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VpsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VpsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/andyweb/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/andyweb/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/andyweb/number.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/andyweb/number.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/andyweb/vps.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/andyweb/vps.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,6 +189,10 @@
       <workItem from="1596331281879" duration="620000" />
       <workItem from="1597125274105" duration="1813000" />
       <workItem from="1597453733221" duration="2408000" />
+      <workItem from="1599288662757" duration="296000" />
+      <workItem from="1600767270436" duration="225000" />
+      <workItem from="1600944340436" duration="369000" />
+      <workItem from="1601174069377" duration="1868000" />
     </task>
     <task id="LOCAL-00001" summary="auth">
       <created>1597456435565</created>

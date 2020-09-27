@@ -3,17 +3,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Laravel</title>
-
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
     <!-- Styles -->
     <style>
         html, body {
-            background-color: #fff;
+            background-image: url("https://kuguacloud.oss-cn-qingdao.aliyuncs.com/img/wallhaven-355884.jpg");
             color: #636b6f;
+            background-size: 1920px 1080px;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
             height: 100vh;
@@ -42,10 +40,12 @@
 
         .content {
             text-align: center;
+
         }
 
         .title {
             font-size: 84px;
+            color: lawngreen;
         }
 
         .links > a {
@@ -60,7 +60,14 @@
 
         .m-b-md {
             margin-bottom: 30px;
+
         }
+        #info{
+
+            color: red;
+            font-size: 30px;
+        }
+
     </style>
 </head>
 <body>
@@ -82,24 +89,24 @@
 
     <div class="content">
         <div class="title m-b-md">
-            列表
-        </div>
+            订购列表
+        </div >
         @foreach($vip as $h)
-            <div>
+            <div id="info">
             {{$h->id}}--{{$h->name}}--{{$h->type}}--{{$h->price}}--{{$h->bandwidth}}--{{$h->core}}
 
             </div>
 
         @endforeach
         <div>
-            <p>
+            <p style="color: #38c172">
                 {{session('mess')}}
             </p>
         </div>
+        <form method="get" action="/add">
 
-
-
-
+            <button> 去订购！</button>
+        </form>
     </div>
 </div>
 <div>

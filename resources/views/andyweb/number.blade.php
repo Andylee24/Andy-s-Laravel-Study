@@ -62,6 +62,7 @@
 
         .m-b-md {
             margin-bottom: 30px;
+            font-size: 50px;
         }
     </style>
 </head>
@@ -84,16 +85,16 @@
 
     <div class="content">
         <div class="title m-b-md" id="name">
-            名称 ——{{$id->name}};
+            名称 —{{$id->name}};
             <br>
-            线路 ——{{$id->type}};
+            线路 —{{$id->type}};
             <br>
-            价格 ——{{$id->price}};
+            价格 —{{$id->price}};
             <br>
-            带宽 ——{{$id->bandwidth}};
+            带宽 —{{$id->bandwidth}};
             <br>
-            配置 ——{{$id->core}};
-            <a href="/vps"> Back to Vps index</a>
+            配置 —{{$id->core}};
+
         </div>
         <div>
     </div>
@@ -102,11 +103,17 @@
     <div>
         <form action="/vps/{{$id->id}}" method="post">
             @csrf
-            @method('DELETE');
-            <button> 完成！</button>
+            @method('DELETE')
+            <button> 删除！</button>
 
         </form>
     </div>
+        <form method="get" action="/vps">
+
+            <button> 返回！</button>
+        </form>
+
+{{--        <a href="/vps"> Back to Vps index</a>--}}
 </div>
 </body>
 </html>
